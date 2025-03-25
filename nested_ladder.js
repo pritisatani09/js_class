@@ -28,7 +28,7 @@ if(oldpass == newpass){
 }else if(newpass == cpass){
     console.log("password changed successfully")
 }else{
-    console.error("new pass & confirm pass not matched")
+    console.error("new pass & confirm not matched")
 }
 
 
