@@ -1,24 +1,37 @@
 // Switch case
 
-let a = 20, b = 45;
-let choice = (prompt("Enter a number:"));
+// let a = 20, b = 45;
+// let choice = (prompt("Enter a number:"));
 
-switch (choice) {
-    case 1:
-        console.log("Addition of a and b:", a + b);
-        break;
-    case 2:
-        console.log("Subtraction of a and b:", a - b);
-        break;
-    case 3:
-        console.log("Multiplication of a and b:", a * b);
-        break;
-    case 4:
-        console.log("Division of a and b:", a / b);
-        break;
-    default:
-        console.log("Wrong number!!!!!!");
+// switch (choice) {
+//     case 1:
+//         console.log("Addition of a and b:", a + b);
+//         break;
+//     case 2:
+//         console.log("Subtraction of a and b:", a - b);
+//         break;
+//     case 3:
+//         console.log("Multiplication of a and b:", a * b);
+//         break;
+//     case 4:
+//         console.log("Division of a and b:", a / b);
+//         break;
+//     default:
+//         console.log("Wrong number!!!!!!");
+// }
+
+//change password 
+let = oldpass = 123,newpass = 1234,cpass = 1234;
+
+if(oldpass == newpass){
+    console.error("old & new pass not matched")
+}else if(newpass == cpass){
+    console.log("password changed successfully")
+}else{
+    console.error("new pass & confirm pass not matched")
 }
+
+
 
 
 /* 1.An electricity board charges the following rates to domestic users to discourage large 
