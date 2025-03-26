@@ -21,15 +21,15 @@
 // }
 
 //change password 
-let = oldpass = 123,newpass = 1234,cpass = 1234;
+// let = oldpass = 123,newpass = 1234,cpass = 1234;
 
-if(oldpass == newpass){
-    console.error("old & new pass not matched")
-}else if(newpass == cpass){
-    console.log("password changed successfully")
-}else{
-    console.error("new pass & confirm not matched")
-}
+// if(oldpass == newpass){
+//     console.error("old & new pass not matched")
+// }else if(newpass == cpass){
+//     console.log("password changed successfully")
+// }else{
+//     console.error("new pass & confirm not matched")
+// }
 
 
 
@@ -38,6 +38,32 @@ if(oldpass == newpass){
 consumption of energy For the first 100 units 60P per unit For the next 200 units 80P per unit Beyond 
 300 units 90P per unit All users are charged a minimum of Rs. 50.If the total amount is more than 300.00 
 then an additional surcharge of 15 % is added.*/
+
+
+
+// let units = 350; 
+// let amount = 0;
+
+
+// if (units <= 100) {
+//     amount = units * 0.60;
+// } else if (units > 100 && units <= 300) {
+//     amount = (100 * 0.60) + ((units - 100) * 0.80);
+// } else {
+//     amount = (100 * 0.60) + (200 * 0.80) + ((units - 300) * 0.90);
+// }
+
+// if (amount < 50) {
+//     amount = 50;
+// }
+
+
+// if (amount > 300) {
+//     amount = amount + (amount * 0.15);
+// }
+
+// console.log("Total Amount:",amount,"rupees");
+
 
 
 
@@ -105,10 +131,23 @@ then an additional surcharge of 15 % is added.*/
 
 //4.Compute taxes for a given income with tax slab rates as follows
 
-// let tax = prompt("enter tax slab rate:");
-// if(tax => 25000){
-//     console.log()
-// }
+let income = 5200;
+let tax = 0;
+
+if (income > 2500) {
+    tax += (income - 2500) * 0.10;
+}
+if (income > 5000) {
+    tax += (income - 5000) * 0.20;
+    income = 5000;
+}
+if (income > 10000) {
+    tax += (income - 10000) * 0.30;
+    income = 10000;
+}
+
+console.log("Tax:", tax);
+
 
 
 
