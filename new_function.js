@@ -1,4 +1,4 @@
-//********** */ 3.variable function,arrow function,nested function,IIFE,clouser function,nested function,callback function
+//********** */ 3.variable function,arrow function,nested function,IIFE,clouser function,callback function
 // nested function
 // function greet (){
 //     console.log("hello....");
@@ -16,7 +16,7 @@
 // let a = function(){
 //     console.log("variable as a function");
 // }
-// a()
+// a()7
 
 
 // arrow function 
