@@ -49,6 +49,92 @@
 // 300,400 add elemet 
 // console.log(data)
 
+//includes
+// let data = [11,22,33,44,55]
+// console.log(data)
+// console.log(data.includes(33))
+
+// isarray
+// let data = [11,22,33,44,55]
+// console.log(data)
+// console.log(Array.isArray(data))
+
+// indexof
+// let data = [11,22,33,44,55]
+// console.log(data)
+// console.log(data.indexOf(33))
+
+// findindex
+// let data = [11, 22, 33, 44, 55];
+// console.log(data);
+
+// console.log(data.findIndex((element) => {
+//     return element < 33;
+// }));
+// console.log(data);
+
+// filter
+// let data = [11, 22, 33, 44, 55];
+// console.log(data);
+
+// let res = data.filter((ele) => {
+//     return ele <= 30
+// })
+// console.log(res)
+
+// every
+// let data = [11, 22, 33, 44, 55];
+// console.log(data);
+
+// let res = data.every((ele) => {
+//     return ele <= 22
+// })
+// console.log(res)
+
+// some
+// let data = [11, 22, 33, 44, 55];
+// console.log(data);
+
+// let res = data.some((ele) => {
+//     return ele <= 22
+// })
+// console.log(res)
+
+// foreach
+// let data = [11, 22, 33, 44, 55];
+// console.log(data);
+
+// data.forEach((ele,i) => {
+//     console.log(i,ele)
+// })
+
+// map method
+// let res = data.map((ele) =>{
+//     return ele * 2
+//     })
+//     console.log(res)
+
+// foreach method
+// data.forEach((ele , i ) =>{
+//     console.log(i , ele)
+// })
+
+// find method
+// let res = data.find((ele) =>{
+// return ele > 33
+// })
+// console.log(res)
+
+// fill method
+
+// data.fill(-1)
+// console.log(data)
+
+
+
+
+
+
 
 
 
