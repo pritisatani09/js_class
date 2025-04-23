@@ -1,8 +1,8 @@
 // let data = "hello 'world'"
 // console.log(data)
 
-let data = `hello word`;
-console.log(data)
+// let data = `hello word`;
+// console.log(data)
 
 // slice
 // console.log(data.slice(2,10))
